@@ -1,3 +1,4 @@
+import json
 from sarufi import Sarufi
 sarufi = Sarufi(username="kamemia18@yahoo.com", password="cuti3.5miley1")
 
@@ -15,7 +16,7 @@ def create_insuarance_bot():
 def chat():
     while True:
         message = input("Me : ")
-        response = sarufi.chat(project_id=3, chat_id="furaha", message=message)
+        response = sarufi.chat(project_id=352, chat_id="furaha", message=message)
         print(f"Bot: {response}")
 
 
